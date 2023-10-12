@@ -4,7 +4,7 @@
  *
  * Please update the following with your information:
  *
- *      Name: <YOUR_NAME>
+ *      Name: <Austin Reid>
  *      Date: <SUBMISSION_DATE>
  */
 
@@ -31,9 +31,26 @@
  *
   ******************************************************************************/
 
-function snake(value) {
-  // Replace this comment with your code...
-}
+
+
+
+// function snake(value) {
+//   value = value.trim().toLowerCase();
+
+//   value = value.replace(/[ \t.]+/g, '-');
+  
+//   return value;
+// }
+
+// console.log(snake('abc'));
+// console.log(snake(' ABC '));
+// console.log(snake('ABC'));
+// console.log(snake('A BC'));
+// console.log(snake(' A bC '));
+// console.log(snake('A  BC'));
+// console.log(snake('A.BC'));
+// console.log(snake(' A..  B  C '));
+
 
 /*******************************************************************************
  * Problem 2: create an HTML <video> element for the given url.
@@ -88,10 +105,39 @@ function snake(value) {
  *
  * ******************************************************************************/
 
-function createVideo(src, width, controls) {
-  // Replace this comment with your code...
-}
+  // function createVideo(src, width, controls) {
+    
+  //   src = src.trim();
+  
+  
+  //   let videoTag = '<video';
+  
+  
+  //   videoTag += ` src="${src}"`;
+  
+  //   // Add the width attribute if it's a valid integer value
+  //   if (!isNaN(width)) {
+  //     videoTag += ` width="${width}"`;
+  //   }
+  
+  //   // Add the controls attribute if controls are set to true
+  //   if (controls) {
+  //     videoTag += ' controls';
+  //   }
+  
+  
+  //   videoTag += '></video>';
+  
+  //   return videoTag;
+  // }
+  
 
+  // const videoNoControls = createVideo('http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_normal.mp4', 500);
+  // console.log(videoNoControls);
+  
+  // const videoWithControls = createVideo('http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_normal.mp4', 500, true);
+  // console.log(videoWithControls);
+  
 /*******************************************************************************
  * Problem 3: extract Date from date string
  *
@@ -135,9 +181,55 @@ function createVideo(src, width, controls) {
  *
  ******************************************************************************/
 
-function parseDateString(value) {
-  // Replace this comment with your code...
-}
+// function parseDateString(value) {
+//   if (typeof value !== 'string') {
+//     throw new Error('Invalid date string: Not a string');
+//   }
+
+//   const dateParts = value.split('-');
+
+//   if (dateParts.length !== 3) {
+//     throw new Error('Invalid date string: Must have three parts (YYYY-MM-DD)');
+//   }
+
+//   const year = parseInt(dateParts[0]);
+//   const month = parseInt(dateParts[1]);
+//   const day = parseInt(dateParts[2]);
+
+//   if (isNaN(year) || isNaN(month) || isNaN(day)) {
+//     throw new Error('Invalid date string: Year, month, and day must be numeric');
+//   }
+
+//   if (dateParts[0].length !== 4 || dateParts[1].length !== 2 || dateParts[2].length !== 2) {
+//     throw new Error('Invalid date string: Incorrect format (YYYY-MM-DD)');
+//   }
+
+//   // Validate month and day values
+//   if (year < 1000 || year > 9999) {
+//     throw new Error('Invalid year value');
+//   }
+
+//   if (month < 1 || month > 12) {
+//     throw new Error('Invalid month value');
+//   }
+
+//   if (day < 1 || day > 31) {
+//     throw new Error('Invalid day value');
+//   }
+
+//   const date = new Date();
+//   date.setFullYear(year);
+//   date.setMonth(month - 1); // Months are indexed based on 0's so must minus 1
+//   date.setDate(day);
+//   return date;
+// }
+// try {
+//   const parsedDate = parseDateString('2021-09-29');
+//   console.log(parsedDate);
+// } catch (error) {
+//   console.error(error.message);
+// }
+
 
 /*******************************************************************************
  * Problem 4: convert Date to date string with specified format.
