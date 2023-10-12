@@ -1,0 +1,42 @@
+[
+    {
+        "monster": "Vorkath",
+        "notable drops": "Skeletal Visage, Jar of Decay, Dragonbone Necklace, Vorki, Draconic Visage",
+        "level": "732",
+        "requirements": "Completion of the Dragon Slayer 2 Quest",
+        "average kill worth": "101.5K",
+        "most expensive drop": "Skeletal Visage at 6.8M with a drop rate of 1/5000 kills."
+    },
+    {
+        "monster": "Zulrah",
+        "notable drops": "Tanzanite Fang, Magic Fang, Serpentine Visage, Uncut Onyx",
+        "level": "725",
+        "requirements": "Completion of the Regicide Quest",
+        "average kill worth": "151.7K",
+        "most expensive drop": "Tanzanite Fang at 3.1M with a drop rate of 1/1024 kills."
+    },
+    {
+        "monster": "Abyssal Sire",
+        "notable drops": "Abyssal Dagger, Abyssal Bludgeon, Unsired (used to roll for a rare drop)",
+        "level": "350",
+        "requirements": "Completion of the Abyssal Sire Quest",
+        "average kill worth": "288.9K",
+        "most expensive drop": "Abyssal Dagger at 7.5M with a drop rate of 1/1024 kills."
+    },
+    {
+        "monster": "Corporeal Beast",
+        "notable drops": "Spectral Sigil, Arcane Sigil, Elysian Sigil, Divine Sigil",
+        "level": "785",
+        "requirements": "Completion of the Summers End Quest",
+        "average kill worth": "396.5K",
+        "most expensive drop": "Spectral Sigil at 244.8M with a drop rate of 1/5000 kills."
+    },
+    {
+        "monster": "Thermonuclear Smoke Devil",
+        "notable drops": "Occult Necklace, Smoke Battlestaff, Dragon Chainbody",
+        "level": "301",
+        "requirements": "Completion of the Desert Treasure Quest and the Smoke Dungeon Resource Dungeon",
+        "average kill worth": "104.2K",
+        "most expensive drop": "Occult Necklace at 1.5M with a drop rate of 1/512 kills."
+    }
+]

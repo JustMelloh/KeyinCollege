@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:  border-box;
+}
+
+body {
+background-color:  white;
+}
+
+.mainBox {
+    width: 900px;
+    background-color: white;
+    border: 3px solid gray;
+    margin: 20px;
+    text-align: left;
+}
+
+main {
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main h2, 
+h4 {
+    color: purple;
+}
+
+main .boldText {
+    font-weight: 700;
+}
+
+.readAndWatchbox {
+    width: 185px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-right: 25px;
+    float: left;
+    
+}
+
+.boxHeading {
+    font-weight: bold;
+    padding: 15px;
+}
+.addPad {
+    padding: 15px;
+    
+}
+
+main a:link {
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+main a:visited {
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: white;
+    background-color: purple;
+    font-weight: bold;
+}
+.ralign {
+    text-align: right;
+    padding: 10px;
+}
+
+.imageRadius {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.imageMargin {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: black;
+    height: 150px;
+}
+
+.botSecClass {
+    background-color: lightgreen;
+}

@@ -1,0 +1,25 @@
+.SampleBox {
+    background-color: aqua;
+    width: 300px;
+    height: 150px;
+    
+
+
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+
+    /* Total width = 20+2+10+300+10+20 = 364*/
+}
+
+#YellowBox {
+    background-color: yellow;
+
+}
+
+#GreenBorder{
+    border: 2px solid green;
+    background-color: purple;
+}

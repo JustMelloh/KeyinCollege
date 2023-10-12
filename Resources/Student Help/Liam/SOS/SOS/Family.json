@@ -1,0 +1,19 @@
+[
+    {"Name": "Liam Philpott",
+"Favourite Sport": "Swimming",
+"Favourite Number": 8,
+"IsProgrammer": true,
+"Hobbies": ["Procastinating", "Reading", "Swimming", "Fishing"]},
+
+    {"Name": "Eric Philpott",
+"Favourite Sport": "Bowling",
+"Favourite Number": 7,
+"IsProgrammer": true,
+"Hobbies": ["Car Repairs", "Procastinating","Watching Videos", "Bowling", "Dancing"]},
+
+    {"Name": "Ryan Philpott",
+"Favourite Sport": "Hockey",
+"Favourite Number": "Doesn't like numbers",
+"IsProgrammer": false,
+"Hobbies": ["Swimming", "Video Games", "Hockey", "Annoying Brothers"]}
+]

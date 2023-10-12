@@ -1,0 +1,214 @@
+<!--Written for the Keyin Software Dev course by Lucas Kelly   -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>History of the Computer</title>
+    <style>
+        /* Global Styles */
+        body {
+            background-color: #F5F5F5;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            border: 1px solid #CCCCCC;
+            background-color: #FFFFFF;
+            padding: 20px;
+            /* Applying Box Shadow to All Boxes */
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Typography Styles */
+        h1, h2 {
+            color: #333333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        p, li {
+            color: #666666;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* List Styles */
+        ul {
+            margin-left: 20px;
+        }
+
+        /* Class Styles */
+        .highlight {
+            background-color: #FFFFCC;
+            font-weight: bold;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        /* Section Class */
+        .section-style {
+            background-color: #E6E6E6;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333333;
+            padding: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #CCCCCC;
+            border-radius: 5px;
+        }
+
+        /* Horizontal Line Styles */
+        hr {
+            border: 0;
+            border-top: 1px solid #CCCCCC;
+            margin: 20px 0;
+        }
+
+        /* "Top of Page" Link Styles */
+        .top-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Flashing Text Animation */
+        @keyframes flash {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .flashing {
+            animation: flash 1s linear infinite;
+        }
+
+        /* New CSS Feature - Box Shadow */
+        .box-shadow-example {
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Box for New Feature */
+        .feature-box {
+            border: 1px solid #333333;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>History of the Computer</h1>
+        <hr/>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#history">FULL HISTORY</a></li>
+                <li><a href="#systems">COMPUTER SYSTEMS</a></li>
+                <li><a href="#partners">PARTNERS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+            </ul>
+        </nav>
+        <hr/>
+
+        <main>
+            <section id="section1" class="section-style">
+                 <!-- I can't get these to align right, so I'm submitting as is and fixing it when I assume we'll use this html again next assignment -->
+                <img src="computerhistory.png" alt="Left Aligned Image" style="float: left; width: 300px; margin-right: 30px; height: 265px;">
+                <h2>In The Beginning...</h2>
+                <p>The history of computers starts out about 2000 years ago, with the birth of the abacus. When the beads on the abacus are moved around, according to programming rules memorized by the user, all regular arithmetic problems can be done.</p>
+                <p>In 1671, Gottfried Wilhelm von Leibniz invented a computer that was built in 1694. It could add, and, after changing some things around, multiply. About a century later Thomas of Colmar created the first successful mechanical calculator that could add, subtract, multiply, and divide.</p>
+            </section>
+
+            <section id="section2" class="section-style">
+                <h2>Other Memorable Events...</h2>
+                <ul>
+                    <li>In 1812, Babbage realized that many long calculations were really a series of predictable actions that were constantly repeated. He began to design an automatic mechanical calculating machine, which he called a difference engine.</li>
+                    <li>Herman Hollerith and James Powers made a step towards automated computing with the development of punched cards. Reading errors were reduced dramatically, workflow increased, and stacks of punched cards could be used as memory of almost unlimited size. For more than 50 years, punched card machines did most of the world's first business computing.</li>
+                    <li>
+                        <div style="text-align: center;">
+                            <img src="image1.jpg" alt="Event Image 1" style="width: 150px; margin: 10px;">
+                            <img src="image2.jpg" alt="Event Image 2" style="width: 150px; margin: 10px;">
+                            <img src="image3.jpg" alt="Event Image 3" style="width: 150px; margin: 10px;">
+                            <img src="image4.jpg" alt="Event Image 4" style="width: 150px; margin: 10px;">
+                            <img src="image5.jpg" alt="Event Image 5" style="width: 150px; margin: 10px;">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="section3" class="section-style">
+                <h2>Great Computer Quotes...</h2>
+                <img src="computertimeline.png" alt="Left Aligned Image 2" style="float: right; margin: 0px 0px 15px 15px;" width="150" />
+                <ul>
+                    <li>
+                        
+                        “Men are from Mars, Women are from Venus, Computers are from Hell.” ~Author Unknown
+                    </li>
+                    <li>“Give a person a fish and you feed them for a day; teach that person to use the Internet and they won't bother you for weeks.” ~Author Unknown</li>
+                    <li>“To err is human, but to really foul things up requires a computer.” ~Farmer's Almanac, 1972</li>
+                    
+                </ul>
+                
+            </section>
+        </main>
+
+        <footer>
+            <hr/>
+            <p>&copy; 2023 History of the Computer. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <hr/>
+    <div class="top-link">
+        <a href="#container">Top of Page</a>
+    </div>
+
+    <hr/>
+    <div class="feature-box">
+        <h2>Features:</h2>
+        <ul>
+            <!-- We covereed box shadow after I wrote this, not sure if that counts -->
+            <li>The "box-shadow" feature adds a subtle shadow effect to all boxes in the document.</li>
+            <li>The "flashing text" feature animates the text using keyframes.</li>
+        </ul>
+    </div>
+
+    <hr/>
+    <div>
+        <p>Explanation of the Flashing Text Feature:</p>
+        <p>The flashing text feature is achieved by using keyframes animation in CSS. The @keyframes rule allows defining the behavior of the animation at different points in time. In this case, the "flash" animation is defined with three keyframes: 0% (initial state), 50% (mid-state), and 100% (final state). The opacity property is modified to create the flashing effect. By applying the "flashing" class to an HTML element, it will animate the text by continuously fading in and out.</p>
+        <p class="flashing">This is an example of flashing text.</p>
+    </div>
+</body>
+</html>

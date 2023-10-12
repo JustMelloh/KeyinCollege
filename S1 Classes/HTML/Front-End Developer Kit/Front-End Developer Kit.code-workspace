@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Front-End Developer Kit",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Front-End Developer Kit"
+	}
+}

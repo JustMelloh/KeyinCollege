@@ -1,0 +1,31 @@
+[
+    {"RealName": "Bruce Wayne",
+    "HeroName": "Batman",
+    "Gender": "Male",
+    "Status": "Alive"},
+
+    {"RealName": "Wally West",
+    "HeroName": "The Flash",
+    "Gender": "Male",
+    "Status": "Alive"},
+
+    {"RealName": "John Stewart",
+    "HeroName": "Green Lantern",
+    "Gender": "Male",
+    "Status": "On Vacation"},
+
+    {"RealName": "Clark Kent",
+    "HeroName": "Superman",
+    "Gender": "Male",
+    "Status": "Dead"},
+
+    {"RealName": "Diana Themyscara",
+    "HeroName": "Wonder Woman",
+    "Gender": "Female",
+    "Status": "Alive"},
+
+    {"RealName": "Cameron Sammus",
+    "HeroName": "EraserHead",
+    "Gender": "Male",
+    "Status": "Dead"}
+]

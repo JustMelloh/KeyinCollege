@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"text","text":"Bananas\n","id":"bc6cb82d05c0585d","x":-164,"y":-137,"width":250,"height":50,"color":"3"},
+		{"id":"721e4fb72e1b2f9e","x":213,"y":73,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"f68f3469ee8cd9a7","fromNode":"bc6cb82d05c0585d","fromSide":"right","toNode":"721e4fb72e1b2f9e","toSide":"left"}
+	]
+}

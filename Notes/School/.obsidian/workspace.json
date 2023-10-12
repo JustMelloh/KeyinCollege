@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "503de17a058a8360",
+    "type": "split",
+    "children": [
+      {
+        "id": "c21a60ba819718da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "daaf6c65ab677835",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "CCT/Drawing 2023-08-22 13.12.01.excalidraw.md"
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "167909f5305e37d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1d18c88485eaa75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d24fda4d5fbf48b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "03f76989a91252c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "64cb076153cb4a97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "be23ebeb420c1520",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b5f80a1d373210f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03740f471f4dc917",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CCT/Drawing 2023-08-22 13.12.01.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9914059b0e52cd6e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CCT/Drawing 2023-08-22 13.12.01.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49eb558982dc8425",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a93c372e72f88612",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CCT/Drawing 2023-08-22 13.12.01.excalidraw.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "daaf6c65ab677835",
+  "lastOpenFiles": [
+    "CCT/Drawing 2023-08-22 13.12.01.excalidraw.md",
+    "Untitled.md",
+    "Industry Session/Session 8.md",
+    "CCT",
+    "Industry Session/Session 7.md",
+    "Trips/Drawing 2023-07-08 03.52.47.excalidraw.md",
+    "JavaScript/JavaScript.md",
+    "Trips/Untitled",
+    "Trips",
+    "Industry Session/Untitled.md",
+    "Industry Session",
+    "Excalidraw/Drawing 2023-07-07 12.47.53.excalidraw.md",
+    "Excalidraw/Drawing 2023-07-07 12.45.46.excalidraw.md",
+    "JavaScript/Java Script.canvas",
+    "Excalidraw",
+    "JavaScript/Untitled.md",
+    "JavaScript",
+    "Java Script.md",
+    "202307071237.md",
+    "Java Script.canvas"
+  ]
+}

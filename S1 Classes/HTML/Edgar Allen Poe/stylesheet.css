@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+h2 {
+    font-family: "Comic Sans MS";
+    color: red;
+}
+p, li {
+    font-family: "Arial Black";
+    color: white;
+    font-weight: bold;
+    font-size:  12pt;
+    line-height: 120%;
+}
+.ittext{
+    font-style: italic;
+}
+
+.rbtext{
+    color:red;
+    font-weight: 700;
+
+}
+.bbtext{
+    color: blue;
+    font-weight: 700;
+}
+nav a:link{
+    color:blue;
+    text-decoration: none;
+    font-size: 20pt;
+}
+nav a:visited{
+    color: blue;
+    text-decoration: none;
+    font-size: 20pt;
+}
+nav a:hover{
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    font-size: 20pt;
+}
+main a:link{
+    color: pink;
+    text-decoration: overline underline;
+   
+}
+main a:visited{
+    color: pink;
+    text-decoration: overline underline;
+   
+}
+main a:hover{
+    background-color: pink;
+    color: palevioletred;
+    font-weight: 700;
+    text-decoration: none;
+}
+footer a:link{
+    color: pink;
+    text-decoration: overline underline;
+   
+}
+footer a:visited{
+    color: pink;
+    text-decoration: overline underline;
+   
+}
+footer a:hover{
+    background-color: pink;
+    color: palevioletred;
+    font-weight: 700;
+    text-decoration: none;
+}
+.MainBox {
+    width: 1000px;
+    background-color: black;
+    border: 3px solid red;
+    padding: 30px;
+    text-align: left;
+}
+.FooterLeft {
+    width: 497px;
+    text-align: left;
+    float: left;
+    margin:0px;
+}
+.FooterRight{
+    width: 497px; 
+    text-align: right;
+    float: right;
+    margin:0px;
+}

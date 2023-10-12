@@ -1,0 +1,71 @@
+* {
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+body {
+    background-color: white;
+}
+
+.mainBox {
+    width: 900px;
+    height: 800px;
+    background-color: aquamarine;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: left;
+}
+
+.boldText {
+    font-weight: 700;
+}
+
+.redTable {
+    background-color: red;
+}
+.yellowTable {
+    background-color: yellow;
+}
+.blueTable {
+    background-color: blue;
+}
+.orangeTable {
+    background-color: orange;
+}
+.purpleTable {
+    background-color: purple;
+}
+.greenTable {
+    background-color: green;
+}
+
+.stHead {
+    background-color: green;
+    font-weight: bold;
+    text-align: center;
+    height: 20px;
+}
+
+.stHeadings {
+    font-weight: 700;
+    text-align: center;
+}
+
+.stAlignL {
+    text-align: left;
+}
+
+.stalignC {
+    text-align: center;
+}
+
+.secGreen {
+    background-color: green;
+}
+
+
+td { 
+    padding: 5px;
+}
