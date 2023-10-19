@@ -105,52 +105,52 @@
     You can call this function with the button click of Problem 3    
  ******************************************************************************************************************/
 
-    var newParagraph = document.createElement("p");
+//     var newParagraph = document.createElement("p");
 
-    function makeParagraph(str) {
-      str = str.toUpperCase(); // Fix: Assign the result of str.toUpperCase() back to str
-      newParagraph.textContent = str;
-      document.body.appendChild(newParagraph);
-    }
+//     function makeParagraph(str) {
+//       str = str.toUpperCase(); // Fix: Assign the result of str.toUpperCase() back to str
+//       newParagraph.textContent = str;
+//       document.body.appendChild(newParagraph);
+//     }
   
 
 
-  /**********************************************************************************************************
-    // Problem 4 : An input text box is given here. Take its value and push the value to the array "myList"[given below as reference] you are using in the script.Add at least 10 values to the array by click on the button after putting some text in input box. 
+//   /**********************************************************************************************************
+//     // Problem 4 : An input text box is given here. Take its value and push the value to the array "myList"[given below as reference] you are using in the script.Add at least 10 values to the array by click on the button after putting some text in input box. 
 
- ******************************************************************************************************************/
-    var inputBox = document.querySelector("#p4"); // Change the selector to #p4
-    var myList = [];
+//  ******************************************************************************************************************/
+//     var inputBox = document.querySelector("#p4"); // Change the selector to #p4
+//     var myList = [];
     
-    function inputStorage() {
-      var inputValue = inputBox.value;
-      myList.push(inputValue);
-      inputBox.value = "";
-    }
+//     function inputStorage() {
+//       var inputValue = inputBox.value;
+//       myList.push(inputValue);
+//       inputBox.value = "";
+//     }
     
-    var addToMyListButton = document.querySelector("#problem4"); // Button associated with Problem 4
-    addToMyListButton.addEventListener("click", inputStorage);
+//     var addToMyListButton = document.querySelector("#problem4"); // Button associated with Problem 4
+//     addToMyListButton.addEventListener("click", inputStorage);
     
-  /**********************************************************************************************************
-    // Problem 5 : Take all the values inputted by you (supposing 10 here) in array myList, and create an unordered list and list down all the values from myList array here and display on the web page.  
+//   /**********************************************************************************************************
+//     // Problem 5 : Take all the values inputted by you (supposing 10 here) in array myList, and create an unordered list and list down all the values from myList array here and display on the web page.  
 
- ******************************************************************************************************************/
-    var addToMyListButton = document.querySelector("#problem5");
+//  ******************************************************************************************************************/
+//     var addToMyListButton = document.querySelector("#problem5");
 
-    addToMyListButton.addEventListener("click", function () {
-      createUnorderedList(myList);
-    });
+//     addToMyListButton.addEventListener("click", function () {
+//       createUnorderedList(myList);
+//     });
     
-    function createUnorderedList(array) {
-      var ul = document.createElement("ul");
+//     function createUnorderedList(array) {
+//       var ul = document.createElement("ul");
     
-      for (var i = 0; i < array.length; i++) {
-        var li = document.createElement("li");
-        li.textContent = array[i];
-        ul.appendChild(li);
-      }
+//       for (var i = 0; i < array.length; i++) {
+//         var li = document.createElement("li");
+//         li.textContent = array[i];
+//         ul.appendChild(li);
+//       }
     
-      var p5 = document.querySelector("#p5");
-      p5.innerHTML = ""; // Clear any previous content
-      p5.appendChild(ul);
-    }
+//       var p5 = document.querySelector("#p5");
+//       p5.innerHTML = ""; // Clear any previous content
+//       p5.appendChild(ul);
+//     }
