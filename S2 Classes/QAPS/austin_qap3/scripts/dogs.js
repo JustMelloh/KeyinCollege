@@ -1,6 +1,7 @@
 // JS for Dog API
 
 
+
 // Fetch Dog API
 document.addEventListener("DOMContentLoaded", () => {
   fetch("https://dog.ceo/api/breeds/list/all")
@@ -20,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     })
     .catch((error) => {
-      console.error("Error Fetching Breeds - ", error);
+      console.error("Error fetching", error);
     });
 
   document
@@ -50,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
           });
         })
         .catch((error) => {
-          console.error("Error Fetching Images - ", error);
+          console.error("Error fetching", error);
         });
     });
 });
