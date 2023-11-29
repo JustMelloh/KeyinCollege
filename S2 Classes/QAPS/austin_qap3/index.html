@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QAP3 - Heckin Good Boys</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Doggos</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="dog-form">
+        <div class="flex-container">
+          <label class="form-item">Choose Breed</label>
+         
+          <select class="form-item" name="Breeds" id="breed-list"></select>
+        </div>
+        <div class="flex-container">
+          <label class="form-item">How Many Photos?</label>
+          <input class="form-item" type="number" id="number" />
+        </div>
+        <button id="btn">Show Pictures!</button>
+      </form>
+      <div id="image-container"></div>
+    </main>
+    <script src="./scripts/dogs.js"></script>
+  </body>
+</html>
