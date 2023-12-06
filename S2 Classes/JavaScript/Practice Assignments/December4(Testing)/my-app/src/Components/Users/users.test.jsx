@@ -7,11 +7,11 @@ import Users from "./Users";
 
 const userArray = ['Simon', 'Barbera', 'Bob', 'Elf', 'Alexandar', 'Brad'];
 
-test('renders correct heading text', () => {
-    render(<Users  users={userArray}/>);
-    const headingElement = screen.getByRole('heading', {name: /Names starting with letter B/i});
+test('renders heading with correct text', () => {
+    render(<Users users={userArray} />);
+    const headingElement = screen.getByText(/Users starting with letter B/i);
     expect(headingElement).toBeInTheDocument();
-});
+  });
 
 test('renders list of users', () => {
     render(<Users  users={userArray}/>);
