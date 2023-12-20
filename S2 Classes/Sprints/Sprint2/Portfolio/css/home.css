@@ -1,0 +1,118 @@
+
+
+body {
+    background-image: url('../assets/Purple.jpg');
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 80px;
+    background: linear-gradient(to bottom, purple,rgb(133, 3, 133), rgb(107, 3, 107));
+    display: flex;
+    
+}
+
+.about {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+.about-txt {
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+    
+}
+.about-link  {
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538, 1px 1px 0 #000;
+    color: white;
+}
+
+.about-link:hover {
+    color: rgb(138, 23, 153);
+}
+
+.edu-img {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    margin-left: 80px;
+    margin-top: 16px;
+}
+
+.edu-txt {
+    position: relative;
+    bottom: 25px;
+    left: 75px;
+}
+
+.edu-link {
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538, 1px 1px 0 #000;
+    color: white;
+}
+
+.edu-link:hover {
+    color: rgb(138, 23, 153);
+}
+
+.home-img {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    margin-left: 80px;
+    margin-top: 16px;
+}
+
+.home-txt {
+    position: relative;
+    bottom: 25px;
+    left: 86px;
+}
+
+.home-link {
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538, 1px 1px 0 #000;
+    color: white;
+    
+}
+
+.home-link:hover{
+    color: rgb(138, 23, 153);
+}
+
+.project-img {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    margin-left: 80px;
+    margin-top: 16px;
+}
+
+.project-txt {
+    position: relative;
+    bottom: 25px;
+    left: 80px;
+}
+
+.project-link {
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538, 1px 1px 0 #000;
+    color: white;
+}
+
+.project-link:hover {
+    color: rgb(138, 23, 153);
+}
