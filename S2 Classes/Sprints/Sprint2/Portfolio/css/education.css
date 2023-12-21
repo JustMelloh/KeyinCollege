@@ -1,0 +1,232 @@
+.container {
+    
+	
+    justify-content: baseline;
+	border: 1px solid white;
+	width: 1200px;
+	height: 900px;
+	background-color: rgb(51, 50, 50, 0.5);
+	z-index: 1;
+}
+
+body {
+	background-image: url("../assets/Purple.jpg");
+	background-size: fill;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+
+	display: flex;
+    justify-content: center;
+    margin-left: 350px;
+	border: 1px solid rgb(255, 255, 255);
+	width: 500px;
+	height: 80px;
+	background: linear-gradient(
+		to bottom,
+		purple,
+		rgb(133, 3, 133),
+		rgb(107, 3, 107)
+	);
+
+}
+
+.about {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.about-txt {
+	display: flex;
+	margin-left: 15px;
+    margin-top: -8px;
+}
+.about-link {
+	text-decoration: none;
+	text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538,
+		1px 1px 0 #000;
+	color: white;
+}
+
+.about-link:hover {
+	color: rgb(138, 23, 153);
+}
+
+.edu-img {
+	position: relative;
+	width: 50px;
+	height: 45px;
+	margin-left: 80px;
+	margin-top: 16px;
+}
+
+.edu-txt {
+	position: relative;
+	bottom: 25px;
+	left: 75px;
+}
+
+.edu-link {
+	text-decoration: none;
+	text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538,
+		1px 1px 0 #000;
+	color: white;
+}
+
+.edu-link:hover {
+	color: rgb(138, 23, 153);
+}
+
+.home-img {
+	position: relative;
+	width: 50px;
+	height: 45px;
+	margin-left: 80px;
+	margin-top: 16px;
+}
+
+.home-txt {
+	position: relative;
+	bottom: 25px;
+	left: 86px;
+}
+
+.home-link {
+	text-decoration: none;
+	text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538,
+		1px 1px 0 #000;
+	color: white;
+}
+
+.home-link:hover {
+	color: rgb(138, 23, 153);
+}
+
+.project-img {
+	position: relative;
+	width: 50px;
+	height: 45px;
+	margin-left: 80px;
+	margin-top: 16px;
+}
+
+.project-txt {
+	position: relative;
+	bottom: 25px;
+	left: 80px;
+}
+
+.project-link {
+	text-decoration: none;
+	text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538,
+		1px 1px 0 #000;
+	color: white;
+}
+
+.project-link:hover {
+	color: rgb(138, 23, 153);
+}
+
+
+.about-box1 {
+	border: 1px rgb(2, 2, 2) solid;
+	height: 200px;
+	width: 400px;
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+.about-box1 p {
+	color: white;
+    margin-left: 5%;
+}
+
+.skills-box {
+	display: flex;
+	border: 1px rgb(2, 2, 2) solid;
+	height: 200px;
+	width: 400px;
+    
+}
+
+.My-Portfolio {
+	position: relative;
+	margin-top: 260px;
+	left: 253px;
+}
+
+#portfolioButton {
+	background-color: #340538;
+	color: rgb(255, 255, 255);
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+
+.portfolio-text,
+.portfolio-moreTxt {
+	display: none;
+}
+
+/* Additional style for initially showing the content */
+.portfolio-text:not(.hidden),
+.portfolio-moreTxt:not(.hidden) {
+	display: block;
+}
+
+.current-edu-head {
+    display: flex;
+	color: rgb(255, 171, 255);
+	font-size: large;
+    margin-top: -6%;
+    margin-left: 30%;
+}
+.current-edu {
+    display: flex;
+	color: white;
+    margin-left: 40%;
+    margin-top: -5%;
+	font-size: large;
+    text-wrap: nowrap;
+}
+.Edu-text {
+	color: white;
+}
+
+.Amazon {
+	position: relative;
+	left: 50px;
+	top: 100px;
+	color: rgb(241, 158, 241);
+}
+
+.AWS-icon {
+	position: relative;
+	height: 120px;
+	width: 120px;
+	left: 35px;
+	top: 80px;
+}
+#portfolioMoreButton {
+	position: relative;
+	bottom: 40px;
+	left: 150px;
+	border: none;
+	cursor: pointer;
+}
+
+.Portfolio-More {
+	background-color: #340538;
+	color: rgb(255, 255, 255);
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+
