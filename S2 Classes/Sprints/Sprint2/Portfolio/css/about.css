@@ -1,0 +1,38 @@
+body {
+	background-image: url("../assets/Purple.jpg");
+	background-size: fill;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	justify-content: baseline;
+	border: 1px solid white;
+	width: 1200px;
+	height: 900px;
+	background-color: rgb(51, 50, 50, 0.5);
+	z-index: 1;
+}
+
+
+.navbar {
+
+	display: flex;
+    justify-content: center;
+    margin-left: 350px;
+	border: 1px solid rgb(255, 255, 255);
+	width: 500px;
+	height: 80px;
+	background: linear-gradient(
+		to bottom,
+		purple,
+		rgb(133, 3, 133),
+		rgb(107, 3, 107)
+	);
+
+
+}
