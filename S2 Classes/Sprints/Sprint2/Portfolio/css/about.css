@@ -1,16 +1,8 @@
-body {
-	background-image: url("../assets/Purple.jpg");
-	background-size: fill;
-	background-repeat: no-repeat;
-	background-position: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
 .container {
-	justify-content: baseline;
+    
+	margin: auto;
+    justify-content: center;
+	align-content: center;
 	border: 1px solid white;
 	width: 1200px;
 	height: 900px;
@@ -18,9 +10,15 @@ body {
 	z-index: 1;
 }
 
-
+body {
+	background-image: url("../assets/Purple.jpg");
+	background-size: fill;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
 .navbar {
-
+	position: relative;
 	display: flex;
     justify-content: center;
     margin-left: 350px;
@@ -34,5 +32,180 @@ body {
 		rgb(107, 3, 107)
 	);
 
+}
+
+.about {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.about-txt {
+	display: flex;
+	margin-left: 15px;
+    margin-top: -8px;
+}
+.about-link {
+	text-decoration: none;
+	text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538,
+		1px 1px 0 #000;
+	color: white;
+}
+
+.about-link:hover {
+	color: rgb(138, 23, 153);
+}
+
+.edu-img {
+	position: relative;
+	width: 50px;
+	height: 45px;
+	margin-left: 80px;
+	margin-top: 16px;
+}
+
+.edu-txt {
+	position: relative;
+	bottom: 25px;
+	left: 75px;
+}
+
+.edu-link {
+	text-decoration: none;
+	text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538,
+		1px 1px 0 #000;
+	color: white;
+}
+
+.edu-link:hover {
+	color: rgb(138, 23, 153);
+}
+
+.home-img {
+	position: relative;
+	width: 50px;
+	height: 45px;
+	margin-left: 80px;
+	margin-top: 16px;
+}
+
+.home-txt {
+	position: relative;
+	bottom: 25px;
+	left: 86px;
+}
+
+.home-link {
+	text-decoration: none;
+	text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538,
+		1px 1px 0 #000;
+	color: white;
+}
+
+.home-link:hover {
+	color: rgb(138, 23, 153);
+}
+
+.project-img {
+	position: relative;
+	width: 50px;
+	height: 45px;
+	margin-left: 80px;
+	margin-top: 16px;
+}
+
+.project-txt {
+	position: relative;
+	bottom: 25px;
+	left: 80px;
+}
+
+.project-link {
+	text-decoration: none;
+	text-shadow: -1px -1px 0 #340538, 1px -1px 0 #340538, -1px 1px 0 #340538,
+		1px 1px 0 #000;
+	color: white;
+}
+
+.project-link:hover {
+	color: rgb(138, 23, 153);
+}
+
+.about-box1 {
+    position: relative;
+	border: 1px rgb(2, 2, 2) solid;
+	height: 200px;
+	width: 400px;
+    margin-top: 15%;
+    margin-left: 33%;
 
 }
+
+.about-box1 p {
+    position: relative;
+	color: white;
+    margin:auto;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    bottom: 15px;
+}
+
+.aboutMeBtn {
+	background-color: #340538;
+	color: rgb(255, 255, 255);
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+#aboutBtn1 {    
+    position: relative;
+	bottom: 40px;
+	left: 150px;
+	border: none;
+	cursor: pointer;
+}
+
+.about-box2 {
+    position: relative;
+	border: 1px rgb(2, 2, 2) solid;
+	height: 200px;
+	width: 400px;
+    margin-top: 10%;
+    margin-left: 33%;
+
+}
+
+
+.about-box2 p {
+    position: relative;
+	color: white;
+    margin:auto;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    bottom: 15px;
+}
+
+
+
+.aboutMeBtn2 {
+    margin-left: 5%;
+	background-color: #340538;
+	color: rgb(255, 255, 255);
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+#aboutbtn2 {    
+    position: relative;
+	bottom: 40px;
+	left: 150px;
+	border: none;
+	cursor: pointer;
+}
+
+.aboutBox1-text,
+    .aboutBox2-text {
+        display: none; /* Hide the text initially */
+    }
